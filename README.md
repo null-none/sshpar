@@ -1,6 +1,6 @@
 # sshpar
 
-Parallel script runner over SSH written in Go. Lightweight, fast, and Docker-ready.
+Parallel script runner over SSH written in Go. Lightweight, fast.
 
 ## Install
 
