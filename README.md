@@ -2,6 +2,19 @@
 
 Parallel script runner over SSH written in Go. Lightweight, fast, and Docker-ready.
 
+## Install
+
+```bash
+go mod init sshpar
+go get gopkg.in/yaml.v3
+go get golang.org/x/crypto/ssh
+
+go run main.go
+
+go build -o sshpar
+./sshpar
+```
+
 ## Features
 
 - Runs shell scripts on multiple servers in parallel
