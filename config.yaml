@@ -1,0 +1,4 @@
+script: restart_nginx.sh
+password: yourpassword
+hosts_file: hosts.txt
+log_file: output.log
